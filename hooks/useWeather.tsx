@@ -24,8 +24,6 @@ const useWeather = (props: Props) => {
                     `${apiUrl}?apiKey=${apiKey}&location=${props.location}&date=${props.date}`
                 )
                 if (data) setData(data)
-                console.log(data);
-
             }
             catch (e) {
                 console.log(e)
